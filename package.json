@@ -1,16 +1,18 @@
 {
-  "name": "rabbitMQBasic",
+  "name": "rabbit",
   "version": "1.0.0",
-  "main": "consumer.js",
+  "main": "publisher.js",
   "dependencies": {
-    "amqplib": "^0.5.5"
+    "amqplib": "^0.5.5",
+    "nodemon": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "watch": "nodemon ."
   },
-  "eslint.options": {
-    "useEslintrc": false,
+  "eslintConfig": {
     "parserOptions": {
       "ecmaVersion": 2017
     },
