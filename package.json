@@ -1,0 +1,34 @@
+{
+  "name": "rabbitMQBasic",
+  "version": "1.0.0",
+  "main": "consumer.js",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslint.options": {
+    "useEslintrc": false,
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssairafe/messagingQueue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssairafe/messagingQueue/issues"
+  },
+  "homepage": "https://github.com/ssairafe/messagingQueue#readme",
+  "description": ""
+}
